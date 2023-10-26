@@ -1,0 +1,371 @@
+1696333805618	geckodriver	INFO	Listening on 127.0.0.1:59146
+1696333808381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileIpOhhT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696333825328	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1696333831039	Marionette	INFO	Listening on port 59156
+Read port: 59156
+WebDriver BiDi listening on ws://127.0.0.1:59147
+1696333831436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59147/devtools/browser/b7e89a11-c56c-4399-aab9-87ce9c4c3af5
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1697706088938	geckodriver	INFO	Listening on 127.0.0.1:58072
+1697706091968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofilenU5lB2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697706093296	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697706093541	Marionette	INFO	Listening on port 58080
+WebDriver BiDi listening on ws://127.0.0.1:58073
+Read port: 58080
+1697706093855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58073/devtools/browser/bded820d-a42e-41d6-9903-1012518c00da
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.pl.xPmkFxHzkfI.O/am=ChAAAgQAAAAAAAAAAAAAAQAAgKiAcAhgAwzAP_cAAAAIAEBBVCEIwQAAAZ7_RxgIACwAUAADIBqYBwBIQjVgBwAAAIz9AAAAAAgAADAAjA8hmgIcCAGLgAAAAADIA4DzAIKDCAsAAAAAAAAAAACAgCcIBgekxwMCIAAAAAAAAAAAAACpbPJyAAEAMA/d=1/ed=1/dg=2/rs=ACT90oFdD0rl_k5tN8uQTxeQ7M2uhuynpg/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:lcrkwe;xBbsrc:NEW1Qc;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;ESrPQc:mNTJvc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;coJ8e:KvoW8;oSUNyd:fTfGO,fTfGO,pnvXVc;SMDL4c:fTfGO,pnvXVc;aZ61od:arTwJ;h3MYod:NpD4ec;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;qavrXe:zQzcXe,mYbt1d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;XUezZ:sa7lqb;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;gtVSi:ekUOYd;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;qZx2Fc:j0xrE;cFTWae:gT8qnd;gaub4:TN6bMe;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;U96pRd:FsR04;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl, line 404: Script terminated by timeout at:
+_.Ak@https://www.google.com/xjs/_/js/k=xjs.s.pl.xPmkFxHzkfI.O/am=ChAAAgQAAAAAAAAAAAAAAQAAgKiAcAhgAwzAP_cAAAAIAEBBVCEIwQAAAZ7_RxgIACwAUAADIBqYBwBIQjVgBwAAAIz9AAAAAAgAADAAjA8hmgIcCAGLgAAAAADIA4DzAIKDCAsAAAAAAAAAAACAgCcIBgekxwMCIAAAAAAAAAAAAACpbPJyAAEAMA/d=1/ed=1/dg=2/rs=ACT90oFdD0rl_k5tN8uQTxeQ7M2uhuynpg/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:lcrkwe;xBbsrc:NEW1Qc;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;ESrPQc:mNTJvc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;coJ8e:KvoW8;oSUNyd:fTfGO,fTfGO,pnvXVc;SMDL4c:fTfGO,pnvXVc;aZ61od:arTwJ;h3MYod:NpD4ec;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;qavrXe:zQzcXe,mYbt1d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;XUezZ:sa7lqb;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;gtVSi:ekUOYd;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;qZx2Fc:j0xrE;cFTWae:gT8qnd;gaub4:TN6bMe;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;U96pRd:FsR04;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:404:174
+_.Ek@https://www.google.com/xjs/_/js/k=xjs.s.pl.xPmkFxHzkfI.O/am=ChAAAgQAAAAAAAAAAAAAAQAAgKiAcAhgAwzAP_cAAAAIAEBBVCEIwQAAAZ7_RxgIACwAUAADIBqYBwBIQjVgBwAAAIz9AAAAAAgAADAAjA8hmgIcCAGLgAAAAADIA4DzAIKDCAsAAAAAAAAAAACAgCcIBgekxwMCIAAAAAAAAAAAAACpbPJyAAEAMA/d=1/ed=1/dg=2/rs=ACT90oFdD0rl_k5tN8uQTxeQ7M2uhuynpg/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:lcrkwe;xBbsrc:NEW1Qc;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;ESrPQc:mNTJvc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;coJ8e:KvoW8;oSUNyd:fTfGO,fTfGO,pnvXVc;SMDL4c:fTfGO,pnvXVc;aZ61od:arTwJ;h3MYod:NpD4ec;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;qavrXe:zQzcXe,mYbt1d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;XUezZ:sa7lqb;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;gtVSi:ekUOYd;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;qZx2Fc:j0xrE;cFTWae:gT8qnd;gaub4:TN6bMe;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;U96pRd:FsR04;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:409:1035
+Bua@https://www.google.com/xjs/_/js/k=xjs.s.pl.xPmkFxHzkfI.O/am=ChAAAgQAAAAAAAAAAAAAAQAAgKiAcAhgAwzAP_cAAAAIAEBBVCEIwQAAAZ7_RxgIACwAUAADIBqYBwBIQjVgBwAAAIz9AAAAAAgAADAAjA8hmgIcCAGLgAAAAADIA4DzAIKDCAsAAAAAAAAAAACAgCcIBgekxwMCIAAAAAAAAAAAAACpbPJyAAEAMA/d=1/ed=1/dg=2/rs=ACT90oFdD0rl_k5tN8uQTxeQ7M2uhuynpg/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:lcrkwe;xBbsrc:NEW1Qc;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;ESrPQc:mNTJvc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;coJ8e:KvoW8;oSUNyd:fTfGO,fTfGO,pnvXVc;SMDL4c:fTfGO,pnvXVc;aZ61od:arTwJ;h3MYod:NpD4ec;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;qavrXe:zQzcXe,mYbt1d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;XUezZ:sa7lqb;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;gtVSi:ekUOYd;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;qZx2Fc:j0xrE;cFTWae:gT8qnd;gaub4:TN6bMe;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;U96pRd:FsR04;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:421:347
+b@https://www.google.com/xjs/_/js/k=xjs.s.pl.xPmkFxHzkfI.O/am=ChAAAgQAAAAAAAAAAAAAAQAAgKiAcAhgAwzAP_cAAAAIAEBBVCEIwQAAAZ7_RxgIACwAUAADIBqYBwBIQjVgBwAAAIz9AAAAAAgAADAAjA8hmgIcCAGLgAAAAADIA4DzAIKDCAsAAAAAAAAAAACAgCcIBgekxwMCIAAAAAAAAAAAAACpbPJyAAEAMA/d=1/ed=1/dg=2/rs=ACT90oFdD0rl_k5tN8uQTxeQ7M2uhuynpg/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:lcrkwe;xBbsrc:NEW1Qc;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;ESrPQc:mNTJvc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;coJ8e:KvoW8;oSUNyd:fTfGO,fTfGO,pnvXVc;SMDL4c:fTfGO,pnvXVc;aZ61od:arTwJ;h3MYod:NpD4ec;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;qavrXe:zQzcXe,mYbt1d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;XUezZ:sa7lqb;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;gtVSi:ekUOYd;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;qZx2Fc:j0xrE;cFTWae:gT8qnd;gaub4:TN6bMe;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;U96pRd:FsR04;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:417:49
+
+1697706293434	Marionette	INFO	Stopped listening on port 58080
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1697706303285	geckodriver	INFO	Listening on 127.0.0.1:58224
+1697706306392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileiEiq6e"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697706307584	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697706307835	Marionette	INFO	Listening on port 58233
+WebDriver BiDi listening on ws://127.0.0.1:58225
+Read port: 58233
+1697706308518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58225/devtools/browser/a8625ea0-ff08-452a-9d2c-e5baf60ffeab
+1697706438765	Marionette	INFO	Stopped listening on port 58233
+Dynamically enable window occlusion 1
+1697706462741	geckodriver	INFO	Listening on 127.0.0.1:58290
+1697706465813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileXY85kT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697706467056	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697706467301	Marionette	INFO	Listening on port 58300
+WebDriver BiDi listening on ws://127.0.0.1:58291
+Read port: 58300
+1697706467644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58291/devtools/browser/d1db035a-46bb-473c-9994-4befeae9608a
+1697707042203	geckodriver	INFO	Listening on 127.0.0.1:58380
+1697707045329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofiley3rg0p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697707046727	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697707047003	Marionette	INFO	Listening on port 58388
+WebDriver BiDi listening on ws://127.0.0.1:58381
+Read port: 58388
+1697707047618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58381/devtools/browser/ea642e85-6c9c-4abc-9bb0-67c918da5c4b
+1697712263435	geckodriver	INFO	Listening on 127.0.0.1:59723
+1697712266557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofilesxXmOq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697712267980	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697712268211	Marionette	INFO	Listening on port 59731
+Read port: 59731
+WebDriver BiDi listening on ws://127.0.0.1:59724
+1697712268494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59724/devtools/browser/858afda5-adbc-4a1e-b7ce-f16a8d7b8eca
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 50: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1697772800653	Marionette	INFO	Stopped listening on port 59731
+Dynamically enable window occlusion 1
+1697772898880	geckodriver	INFO	Listening on 127.0.0.1:55664
+1697772902260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileJYJgsA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697772903897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697772904162	Marionette	INFO	Listening on port 55672
+WebDriver BiDi listening on ws://127.0.0.1:55665
+Read port: 55672
+1697772904471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55665/devtools/browser/fad85c71-d44e-4b67-a6c6-a42b7ba4f717
+[Child 19488, MediaDecoderStateMachine #1] WARNING: Decoder=145613c9400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 19488, MediaDecoderStateMachine #1] WARNING: Decoder=145613c9400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Child 19488, MediaDecoderStateMachine #1] WARNING: Decoder=145613b4800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 19488, MediaDecoderStateMachine #1] WARNING: Decoder=145613b4800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1697812329977	Marionette	INFO	Stopped listening on port 55672
+JavaScript warning: https://ec.europa.eu/eures/portal/polyfills.f44b60758e46d89b.js, line 1: Script terminated by timeout at:
+10609/Ee/Pe/d/p.args[0]@https://ec.europa.eu/eures/portal/polyfills.f44b60758e46d89b.js:1:40957
+
+Dynamically enable window occlusion 1
+1697812423631	geckodriver	INFO	Listening on 127.0.0.1:64376
+1697812426758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofile2f8dwi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697812428146	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697812428393	Marionette	INFO	Listening on port 64384
+Read port: 64384
+WebDriver BiDi listening on ws://127.0.0.1:64377
+1697812428719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64377/devtools/browser/17f9961f-1c64-4229-9040-f2f2390962e9
+[Child 5636, MediaDecoderStateMachine #1] WARNING: Decoder=25866fc0c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 5636, MediaDecoderStateMachine #1] WARNING: Decoder=25866fc0c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1697856803045	Marionette	INFO	Stopped listening on port 64384
+Dynamically enable window occlusion 1
+1697856898073	geckodriver	INFO	Listening on 127.0.0.1:57916
+1697856901154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileRFyXZa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697856902532	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697856902760	Marionette	INFO	Listening on port 57924
+WebDriver BiDi listening on ws://127.0.0.1:57917
+Read port: 57924
+1697856903054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57917/devtools/browser/3c64fb8d-24e4-4573-9471-075d1c41ff0c
+1697861863041	Marionette	INFO	Stopped listening on port 57924
+Dynamically enable window occlusion 1
+1697861896605	geckodriver	INFO	Listening on 127.0.0.1:58729
+1697861899674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofile6zcJqy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697861900932	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697861901149	Marionette	INFO	Listening on port 58737
+WebDriver BiDi listening on ws://127.0.0.1:58730
+Read port: 58737
+1697861901453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58730/devtools/browser/dacae46d-8719-4cfa-a8f4-dd59a9fd2327
+1697885504801	Marionette	INFO	Stopped listening on port 58737
+Dynamically enable window occlusion 1
+1697885574590	geckodriver	INFO	Listening on 127.0.0.1:63095
+1697885577707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileQRpPFx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697885579179	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697885579426	Marionette	INFO	Listening on port 63103
+WebDriver BiDi listening on ws://127.0.0.1:63096
+Read port: 63103
+1697885579729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63096/devtools/browser/f8a764f4-d39a-4185-a238-b77004237cbf
+1697904086716	Marionette	INFO	Stopped listening on port 63103
+Dynamically enable window occlusion 1
+1697904144566	geckodriver	INFO	Listening on 127.0.0.1:50080
+1697904147665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofiley6XGJc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697904148977	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697904149204	Marionette	INFO	Listening on port 50088
+Read port: 
+1697904149213	geckodriver::browser	WARN	Failed fo convert  to u16
+WebDriver BiDi listening on ws://127.0.0.1:50081
+Read port: 50088
+1697904149751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50081/devtools/browser/2540bc6c-fa8a-4b56-8ee8-5883ec99e4e2
+1697922772617	Marionette	INFO	Stopped listening on port 50088
+Dynamically enable window occlusion 1
+1697922830122	geckodriver	INFO	Listening on 127.0.0.1:53560
+1697922833223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofiler5uxTV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697922834585	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697922834822	Marionette	INFO	Listening on port 53568
+WebDriver BiDi listening on ws://127.0.0.1:53561
+Read port: 53568
+1697922835121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53561/devtools/browser/2d5cdc30-cd13-40b0-8453-fe08916eda00
+1697936236301	Marionette	INFO	Stopped listening on port 53568
+Dynamically enable window occlusion 1
+1697936282479	geckodriver	INFO	Listening on 127.0.0.1:55782
+1697936285550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofiles2X9s7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697936286949	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697936287186	Marionette	INFO	Listening on port 55790
+WebDriver BiDi listening on ws://127.0.0.1:55783
+Read port: 55790
+1697936287735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55783/devtools/browser/f2fe1629-f9e0-40a5-aa9b-f5c02c057882
+1697980284038	Marionette	INFO	Stopped listening on port 55790
+Dynamically enable window occlusion 1
+1697980370841	geckodriver	INFO	Listening on 127.0.0.1:63930
+1697980373959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofile7oAr15"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697980375373	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1697980375610	Marionette	INFO	Listening on port 63938
+WebDriver BiDi listening on ws://127.0.0.1:63931
+Read port: 63938
+1697980376197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63931/devtools/browser/9aead3a2-ba5b-4532-a737-8aa14cf588f4
+1697998736459	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698046760762	Marionette	INFO	Stopped listening on port 63938
+Dynamically enable window occlusion 1
+1698047191896	geckodriver	INFO	Listening on 127.0.0.1:55456
+1698047195069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofiledjxk8S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698047196698	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698047196985	Marionette	INFO	Listening on port 55464
+WebDriver BiDi listening on ws://127.0.0.1:55457
+Read port: 55464
+1698047198091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55457/devtools/browser/38268900-5d85-4b97-b190-263e77de1763
+1698060033444	Marionette	INFO	Stopped listening on port 55464
+Dynamically enable window occlusion 1
+1698060087939	geckodriver	INFO	Listening on 127.0.0.1:57961
+1698060091050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofile1g6E4Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698060092514	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698060092741	Marionette	INFO	Listening on port 57969
+WebDriver BiDi listening on ws://127.0.0.1:57962
+Read port: 57969
+1698060093043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57962/devtools/browser/8deaef3f-c08b-4e27-ac6d-f8a43462b3ce
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Child 10296, MediaDecoderStateMachine #1] WARNING: Decoder=2410b5b2900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 10296, MediaDecoderStateMachine #1] WARNING: Decoder=2410b5b2900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1698097710198	Marionette	INFO	Stopped listening on port 57969
+Dynamically enable window occlusion 1
+1698097799865	geckodriver	INFO	Listening on 127.0.0.1:65493
+1698097802968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileEP0KLp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698097803703	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698097803956	Marionette	INFO	Listening on port 65501
+WebDriver BiDi listening on ws://127.0.0.1:65494
+Read port: 65501
+1698097804486	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65494/devtools/browser/0a233b57-e2a7-48b5-b4d3-015dbb0add68
+1698123779949	Marionette	INFO	Stopped listening on port 65501
+Dynamically enable window occlusion 1
+1698123855437	geckodriver	INFO	Listening on 127.0.0.1:53674
+1698123858464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofilePYPMVu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698123859845	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698123860093	Marionette	INFO	Listening on port 53682
+Read port: 53682
+WebDriver BiDi listening on ws://127.0.0.1:53675
+1698123860433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53675/devtools/browser/5078e38e-1c82-4e67-81bb-3372781ef261
+JavaScript error: resource://gre/modules/PageThumbUtils.sys.mjs, line 349: TypeError: ChromeUtils.getClassName: Argument 1 is not an object.
+1698150062460	Marionette	INFO	Stopped listening on port 53682
+Dynamically enable window occlusion 1
+1698150136189	geckodriver	INFO	Listening on 127.0.0.1:58863
+1698150139292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofilecZRZyM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698150140763	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698150141018	Marionette	INFO	Listening on port 58873
+Read port: 58873
+WebDriver BiDi listening on ws://127.0.0.1:58864
+1698150141315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58864/devtools/browser/9c4be8a5-4065-407b-bedc-5f3eeffda41d
+1698167752398	Marionette	INFO	Stopped listening on port 58873
+Dynamically enable window occlusion 1
+1698167812656	geckodriver	INFO	Listening on 127.0.0.1:62125
+1698167815785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofilenzJ4zI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698167817161	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698167817378	Marionette	INFO	Listening on port 62133
+WebDriver BiDi listening on ws://127.0.0.1:62126
+Read port: 62133
+1698167817696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62126/devtools/browser/a7e39289-bd78-4cbf-b0e3-ff17db0e6305
+[Child 13108, MediaDecoderStateMachine #1] WARNING: Decoder=1f374ed4800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 13108, MediaDecoderStateMachine #1] WARNING: Decoder=1f374ed4800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 13108, MediaDecoderStateMachine #1] WARNING: Decoder=1f36d6c3600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 13108, MediaDecoderStateMachine #1] WARNING: Decoder=1f36d6c3600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1698227168907	Marionette	INFO	Stopped listening on port 62133
+Dynamically enable window occlusion 1
+1698227259145	geckodriver	INFO	Listening on 127.0.0.1:58394
+1698227262207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofilesjx4EH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698227263636	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698227263878	Marionette	INFO	Listening on port 58402
+WebDriver BiDi listening on ws://127.0.0.1:58395
+Read port: 58402
+1698227264162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58395/devtools/browser/56e32701-0170-4ce0-ade8-0a4cd0ec4202
+[Child 21552, MediaDecoderStateMachine #1] WARNING: Decoder=2b919acb000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 21552, MediaDecoderStateMachine #1] WARNING: Decoder=2b919acb000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 21552, MediaDecoderStateMachine #2] WARNING: Decoder=2b920bbea00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 21552, MediaDecoderStateMachine #2] WARNING: Decoder=2b920bbea00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 21552, MediaDecoderStateMachine #2] WARNING: Decoder=2b919add700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 21552, MediaDecoderStateMachine #2] WARNING: Decoder=2b919add700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1698278044687	Marionette	INFO	Stopped listening on port 58402
+Dynamically enable window occlusion 1
+1698278132463	geckodriver	INFO	Listening on 127.0.0.1:53577
+1698278135561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-blink-features=AutomationControl ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VEB6F~1.DOS\\AppData\\Local\\Temp\\rust_mozprofileak4ggk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698278136996	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1698278137261	Marionette	INFO	Listening on port 53585
+WebDriver BiDi listening on ws://127.0.0.1:53578
+Read port: 53585
+1698278137581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53578/devtools/browser/86819a08-dcd9-4e70-b107-91e13b2e15e4
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
