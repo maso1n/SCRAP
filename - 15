@@ -66,7 +66,7 @@ def get_href(file_path):
         block_text = block.find("span", "ecl-u-type-s jv-result-employer-name").text
         block_text = block_text.lower()
         is_true = True;
-        words = ["ingenieur", "glaser", "verkäuferin", "klempner", "servicetechniker ", "monteur", " cnc", "arzt", " work ","betriebsschlosser","berufskraftfahrer","elektriker ","mechatroniker","personal","tierarzthelfer", "randstad", "deutsche bahn ag", " teamleiter ", " trenkwalder ", "datenschutz", "manpower", "pamec", " personaldienstl", "bremen", " a/m/e ", "adiro", "gi group", "persona", "perzukunft", "people", " hr ", "jobimpulse", " akko ", "job", "bindan", " adecco ", "aurea",  "xing", "experts", "people", "yakabuna", "worx", "accurat", "tempton", "zeitarbeit", "apero", "bstlux-werft u schifffahrt gmbh", "acordiz"]
+        words = ["ingenieur", "glaser", "verkäuferin", "klempner", "servicetechniker ", "monteur", " cnc", "arzt", " work ","betriebsschlosser","berufskraftfahrer","elektriker ","mechatroniker","personal","tierarzthelfer", "randstad", "deutsche bahn ag", " teamleiter ", " trenkwalder ", "datenschutz", "manpower", "pamec", " personaldienstl", "bremen", " a/m/e ", "adiro", "gi group", "persona", "perzukunft", "people", " hr ", "jobimpulse", " akko ", "job", "bindan", " adecco ", "aurea",  "xing", "experts", "people", "yakabuna", "worx", "accurat", "tempton", "zeitarbeit", "apero", "bstlux-werft u schifffahrt gmbh", "acordiz", "personal", "sicherheit"]
         for word in words:
             if word in block_text:
                 is_true=False;
@@ -102,7 +102,7 @@ def get_information(link):
             src = file.read()
         soup = BeautifulSoup(src, "lxml")
         time.sleep(1)
-        words_list = ["Befristete Überlassung von Arbeitskräften", "Sonstige Überlassung von Arbeitskräften", "Überlassung von Arbeitskräften", "Junior", " Mechaniker", "Elektriker", "Senior", " CAD",  "Tierarzthelfer", "Fullstack", "DevOps", "Bauingenieur", "Fahrbahnmechaniker", "Lokführer", "Cloud", "Fachinformatiker", "Verbundmanager", "Verkäufer", "Consultant", "Objektleiter", "Entwickler"]
+        words_list = ["t-online.de", "Kfz Meister", "Schutz", "IT System", "Vendeur", "Fachkraft", "Arbeiterschutz", "Datenschutz", "Datenschutz", "dg-timework.de", "Befristete Überlassung von Arbeitskräften", "Sonstige Überlassung von Arbeitskräften", "Überlassung von Arbeitskräften", "Junior", " Mechaniker", "Elektriker", "Senior", " CAD",  "Tierarzthelfer", "Fullstack", "DevOps", "Bauingenieur", "Fahrbahnmechaniker", "Lokführer", "Cloud", "Fachinformatiker", "Verbundmanager", "Verkäufer", "Consultant", "Objektleiter", "Entwickler"]
         is_true=True
         for word in words_list:
             if word in soup.find("section", "ecl-col-m-9").text:
@@ -170,15 +170,24 @@ def create_driver():
     userAgent = ua.random
     print(userAgent)
     options.add_argument("--disable-blink-features=AutomationControlled")
-    #фоновое выполнение
+    #фоновое выполнение chrome
     #options.headless = True
+
+    # фоновое выполнение firefox
+    options.add_argument("--headless")
 
     #options.add_extension("extension_1_50_1_0.crx")
     # options.add_argument("start-maximized")
     # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 
-    driver = FirefoxService(executable_path=GeckoDriverManager().install())
+    options.set_preference("dom.webdriver.enabled", False)
 
+    driver = FirefoxService(executable_path=GeckoDriverManager().install())
+    # driver.execute_script('''
+    #        delete window.cdc_adoQpoasnfa76pfcZLmcfl_Array;
+    #        delete window.cdc_adoQpoasnfa76pfcZLmcfl_Promise;
+    #        delete window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol;
+    #     ''')
     # Создайте драйвер Firefox, передав объект службы
     driver = webdriver.Firefox(service=driver, options=options)
 
@@ -211,24 +220,7 @@ def close_all(driver):
 try:
     i=0
     links = {
-#"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Packer&sector=c&lang=en": 179,
-#"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Packer&sector=NS,g&lang=en": 162,
-#"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Packer&sector=a,d,e,f,h,i,j,k,l,m,p,q,r,s,u,t&lang=en": 134,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&keywordsEverywhere=Packer&sector=n&availableLanguages=de&educationLevel=NS&positionOfferingCodes=NS,contract,contracttohire,temporary,temporarytohire&lang=en": 78,
-#"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&keywordsEverywhere=Packer&sector=n&availableLanguages=de&positionOfferingCodes=directhire&publicationPeriod=LAST_MONTH&escoIsco=C8,C9&minNumberPost=1&lang=en": 167,
-#"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&keywordsEverywhere=Packer&sector=n&availableLanguages=de&positionOfferingCodes=directhire&publicationPeriod=LAST_MONTH&escoIsco=C3,C4,C5,C6,C7&minNumberPost=1&lang=en": 126,
-#"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&keywordsEverywhere=Packer&sector=n&availableLanguages=de&positionOfferingCodes=directhire&publicationPeriod=LAST_MONTH&escoIsco=C0,C1,C2,C3,C4,C5,C6,C7&minNumberPost=1&lang=en": 128,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Verpacker&positionScheduleCodes=NS,parttime,flextime&lang=en": 190,
-#"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Verpacker&positionScheduleCodes=fulltime&sector=NS,a,c,d,e,f,g,h,i,j,k,m,o,p,q,r,s,u&lang=en": 176,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Verpacker&positionScheduleCodes=fulltime&sector=n&positionOfferingCodes=directhire&escoIsco=C9&minNumberPost=1&lang=en": 200,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de&keywordsEverywhere=Verpacker&positionScheduleCodes=fulltime&sector=n&positionOfferingCodes=directhire&escoIsco=C9&minNumberPost=1&lang=en": 200,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Verpacker&positionScheduleCodes=fulltime&sector=n&positionOfferingCodes=directhire&escoIsco=C1,C2,C3,C4,C5,C6,C7,C8&minNumberPost=1&lang=en": 122,
-
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Packkraft&sector=m,c&availableLanguages=de&minNumberPost=1&lang=en": 186,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de&keywordsEverywhere=Packkraft&sector=NS&availableLanguages=de&minNumberPost=1&lang=en": 200,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Packkraft&sector=NS&availableLanguages=de&minNumberPost=1&lang=en": 200,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Packkraft&sector=m,c&availableLanguages=de&minNumberPost=1&lang=en": 186,
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Packkraft&sector=f,g,h,p,s&availableLanguages=de&minNumberPost=1&lang=en": 180,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de&keywordsEverywhere=Lagerhalter&lang=en": 163,
 
     }
     for link in links.keys():
@@ -260,6 +252,7 @@ except Exception as ex:
     print(ex)
 finally:
     pass
+
 
 #https://docs.google.com/document/d/1R24BLsHPDHXQN5-q4LsV8PpzlXozvsYRzxNvbJXqsIk/edit?pli=1
 
