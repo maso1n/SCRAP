@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from fake_useragent import UserAgent
 import time
+from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -49,7 +50,7 @@ def olx_page(driver, link, arr_links_of_publication, number):
     for a1 in a:
         #print(a1)
         get_information(a1)
-    print("====================================", number)
+    print("=", number,datetime.now())
     return arr_links_of_publication
 
 def get_href(file_path):
@@ -252,13 +253,3 @@ except Exception as ex:
     print(ex)
 finally:
     pass
-
-
-#https://docs.google.com/document/d/1R24BLsHPDHXQN5-q4LsV8PpzlXozvsYRzxNvbJXqsIk/edit?pli=1
-
-#driver.execute_script('''
-#    delete window.cdc_adoQpoasnfa76pfcZLmcfl_Array;
-#    delete window.cdc_adoQpoasnfa76pfcZLmcfl_Promise;
-#    delete window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol;
-#''')
-#firefox_options.set_preference("dom.webdriver.enabled", False)
