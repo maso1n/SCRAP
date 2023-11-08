@@ -67,7 +67,7 @@ def get_href(file_path):
         block_text = block.find("span", "ecl-u-type-s jv-result-employer-name").text
         block_text = block_text.lower()
         is_true = True;
-        words = ["ingenieur", "glaser", "verkäuferin", "klempner", "servicetechniker ", "monteur", " cnc", "arzt", " work ","betriebsschlosser","berufskraftfahrer","elektriker ","mechatroniker","personal","tierarzthelfer", "randstad", "deutsche bahn ag", " teamleiter ", " trenkwalder ", "datenschutz", "manpower", "pamec", " personaldienstl", "bremen", " a/m/e ", "adiro", "gi group", "persona", "perzukunft", "people", " hr ", "jobimpulse", " akko ", "job", "bindan", " adecco ", "aurea",  "xing", "experts", "people", "yakabuna", "worx", "accurat", "tempton", "zeitarbeit", "apero", "bstlux-werft u schifffahrt gmbh", "acordiz", "personal", "sicherheit"]
+        words = ["ingenieur", " HR ", "senior",  "junior", "engineer" , "software", "glaser", "verkäuferin", "klempner", "servicetechniker ", "monteur", " cnc", "arzt", " work ","betriebsschlosser","berufskraftfahrer","elektriker ","mechatroniker","personal","tierarzthelfer", "randstad", "deutsche bahn ag", " teamleiter ", " trenkwalder ", "datenschutz", "manpower", "pamec", " personaldienstl", "bremen", " a/m/e ", "adiro", "gi group", "persona", "perzukunft", "people", " hr ", "jobimpulse", " akko ", "job", "bindan", " adecco ", "aurea",  "xing", "experts", "people", "yakabuna", "worx", "accurat", "tempton", "zeitarbeit", "apero", "bstlux-werft u schifffahrt gmbh", "acordiz", "personal", "sicherheit"]
         for word in words:
             if word in block_text:
                 is_true=False;
@@ -158,7 +158,7 @@ def get_information(link):
             except:
                 arr_link2 = " "
             arr_link=list(arr_link)
-            #print(title, arr_mail0, arr_mail1,arr_link0, arr_link1, arr_link2, link)
+            print(title, arr_mail0, arr_mail1,arr_link0, arr_link1, arr_link2, link)
 
             df.loc[len(df.index)] = title, arr_mail0, arr_mail1,arr_link0, arr_link1, arr_link2, link;
 
@@ -222,8 +222,30 @@ def close_all(driver):
 try:
     i=0
     links = {
-"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de&keywordsEverywhere=Lagerhalter&lang=en": 163,
-
+        "https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=a,d,f,i,k,p,r,t,u&minNumberPost=1&lang=en":199,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=fulltime&sector=NS&positionOfferingCodes=contract,directhire,temporary,temporarytohire&minNumberPost=1&lang=en"	:95,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=fulltime&sector=NS&positionOfferingCodes=NS&minNumberPost=1&lang=en":	127,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=NS,flextime,parttime&sector=NS&minNumberPost=1&lang=en"	:124,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=g&positionOfferingCodes=NS,apprenticeship,contracttohire,internship,temporary,temporarytohire&minNumberPost=1&lang=en"	:53,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=g&positionOfferingCodes=directhire&minNumberPost=1&lang=en":	180,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=m&minNumberPost=1&lang=en":	200,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=b,e,h,l,o,s&minNumberPost=1&lang=en":	95,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=c&positionOfferingCodes=directhire&minNumberPost=1&lang=en":	195,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=c&positionOfferingCodes=NS,apprenticeship,contracttohire,internship,temporary,temporarytohire&minNumberPost=1&lang=en":	65,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=n&positionOfferingCodes=directhire&escoIsco=C8,C9&minNumberPost=1&lang=en":	194,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=n&positionOfferingCodes=directhire&escoIsco=C5,C6,C7&minNumberPost=1&lang=en"	:183,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=n&positionOfferingCodes=directhire&escoIsco=C1,C2,C3,C4&minNumberPost=1&lang=en"	:190,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=n&positionOfferingCodes=NS,apprenticeship,contracttohire,temporary,temporarytohire&minNumberPost=1&lang=en":	125,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de2&keywordsEverywhere=Produkt%20Arbeiter&sector=j,q&minNumberPost=1&lang=en":	159,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de3&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=NS,flextime,parttime&minNumberPost=1&lang=en":	200,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de3&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=fulltime&sector=n&positionOfferingCodes=directhire,temporary,temporarytohire&minNumberPost=1&lang=en":	101,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de3&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=fulltime&sector=n&positionOfferingCodes=NS&minNumberPost=1&lang=en":	153,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de3&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=fulltime&sector=a,d,f,i,k,p,q,r,u&minNumberPost=1&lang=en":	38,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de3&keywordsEverywhere=Produkt%20Arbeiter&positionScheduleCodes=fulltime&sector=NS,c,e,g,h,j,l,m,o,s&minNumberPost=1&lang=en":	188,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de4&keywordsEverywhere=Produkt%20Arbeiter&positionOfferingCodes=apprenticeship,directhire,internship&minNumberPost=1&lang=en":	199,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de4&keywordsEverywhere=Produkt%20Arbeiter&positionOfferingCodes=NS,temporary,temporarytohire&minNumberPost=1&lang=en":	90,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de5&keywordsEverywhere=Produkt%20Arbeiter&minNumberPost=1&lang=en":	142,
+"https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=MOST_RECENT&locationCodes=de6&keywordsEverywhere=Produkt%20Arbeiter&positionOfferingCodes=directhire,internship&minNumberPost=1&lang=en":	181,
     }
     for link in links.keys():
         driver = create_driver()
