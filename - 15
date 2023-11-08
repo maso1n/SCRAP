@@ -50,7 +50,7 @@ def olx_page(driver, link, arr_links_of_publication, number):
     for a1 in a:
         #print(a1)
         get_information(a1)
-    print("=", number,datetime.now())
+    #print("=", number,datetime.now())
     return arr_links_of_publication
 
 def get_href(file_path):
@@ -71,7 +71,7 @@ def get_href(file_path):
         for word in words:
             if word in block_text:
                 is_true=False;
-                print("**",word,"**")
+                #print("**",word,"**")
                 break
             else:
                 pass
@@ -80,9 +80,10 @@ def get_href(file_path):
             "href")
         if is_true:
             urls.append(link)
-            print(block_text, link)
+           # print(block_text, link)
         else:
-            print("-1--nie podchodit", block_text, link)
+            pass
+           #print("-1--nie podchodit", block_text, link)
 
     return urls
 
@@ -108,7 +109,7 @@ def get_information(link):
         for word in words_list:
             if word in soup.find("section", "ecl-col-m-9").text:
                 is_true = False;
-                print("-2--nie podchodit","**", word,"**", link)
+                #print("-2--nie podchodit","**", word,"**", link)
         if is_true:
             try:
                 title = soup.find("h1").text
@@ -157,7 +158,7 @@ def get_information(link):
             except:
                 arr_link2 = " "
             arr_link=list(arr_link)
-            print(title, arr_mail0, arr_mail1,arr_link0, arr_link1, arr_link2, link)
+            #print(title, arr_mail0, arr_mail1,arr_link0, arr_link1, arr_link2, link)
 
             df.loc[len(df.index)] = title, arr_mail0, arr_mail1,arr_link0, arr_link1, arr_link2, link;
 
@@ -239,7 +240,7 @@ try:
         i+=1
         for j in range(1, links[link]+1):
             modified_link = link[:equals_index + 1] + str(j) + link[ampersand_index:]
-            print(j)
+            print(j,datetime.now())
             driver.get(url="https://ec.europa.eu/eures/portal/jv-se/search?page=1&resultsPerPage=50&orderBy=BEST_MATCH&locationCodes=de&keywordsEverywhere=Lader&positionScheduleCodes=fulltime&sector=c&availableLanguages=de&positionOfferingCodes=contract,directhire&lang=de")
             time.sleep(random_time_interval(2, 3))
             arr_links_of_publication = olx_page(driver, modified_link, arr_links_of_publication, j)
