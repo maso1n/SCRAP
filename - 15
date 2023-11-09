@@ -267,10 +267,14 @@ try:
             time.sleep(random_time_interval(2, 3))
             arr_links_of_publication = olx_page(driver, modified_link, arr_links_of_publication, j)
             time.sleep(random_time_interval(2, 3))
-            if (j % 10 == 0):
+            if (j % 1 == 0):
                 df.to_excel(f'link_{i}page_{j}.xlsx', index=False)
                 print("zapiska++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=")
-        df.to_excel(f'link_{i}path_rez.xlsx', index=False)
+        # Определите путь к файлу, поднимаясь на уровень выше и сохраняя в Z:/anton/
+        file_path = os.path.join('Z:/anton/', f'rez_{i}_{datetime.now().strftime("%Y-%m-%d-%H-%M")}.xlsx')
+        # Сохраните DataFrame в файл Excel
+        df.to_excel(file_path, index=False)
+
         close_all(driver)
 except Exception as ex:
     print(ex)
