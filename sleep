@@ -1,0 +1,22 @@
+import time
+import datetime
+
+def is_office_hours():
+    # Определите период времени, когда не нужно выполнять скрипт
+    start_time = datetime.time(8, 0)  # Начало "перерыва"
+    end_time = datetime.time(8, 44)    # Конец "перерыва"
+    print("start_time", start_time)
+    print("end_time", end_time)
+    # Получите текущее время
+    current_time = datetime.datetime.now().time()
+    print("current_time", current_time)
+    # Проверьте, находится ли текущее время в пределах "перерыва"
+    return start_time <= current_time <= end_time
+
+# Основная часть программы
+for i in range(100):
+    time.sleep(1)
+    print("1")
+    if is_office_hours():
+        print("Не выполняем скрипт, так как в офисе пропадает интернет")
+        time.sleep(60)  # Подождите минуту перед повторной проверкой    
