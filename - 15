@@ -67,7 +67,8 @@ def get_href(file_path):
         block_text = block.find("span", "ecl-u-type-s jv-result-employer-name").text
         block_text = block_text.lower()
         is_true = True;
-        words = ["ingenieur", " HR ", "senior",  "junior", "engineer" , "software", "glaser", "verkäuferin", "klempner", "servicetechniker ", "monteur", " cnc", "arzt", " work ","betriebsschlosser","berufskraftfahrer","elektriker ","mechatroniker","personal","tierarzthelfer", "randstad", "deutsche bahn ag", " teamleiter ", " trenkwalder ", "datenschutz", "manpower", "pamec", " personaldienstl", "bremen", " a/m/e ", "adiro", "gi group", "persona", "perzukunft", "people", " hr ", "jobimpulse", " akko ", "job", "bindan", " adecco ", "aurea",  "xing", "experts", "people", "yakabuna", "worx", "accurat", "tempton", "zeitarbeit", "apero", "bstlux-werft u schifffahrt gmbh", "acordiz", "personal", "sicherheit"]
+        words = ["ingenieur", " HR ", "senior",  "junior", "engineer" , "software", "glaser", "verkäuferin", "klempner", "servicetechniker ", "monteur", " cnc", "arzt", " work ","betriebsschlosser","berufskraftfahrer","elektriker ","mechatroniker","personal","tierarzthelfer", "randstad", "deutsche bahn ag", " teamleiter ", " trenkwalder ", "datenschutz", "manpower", "pamec", " personaldienstl", "bremen", " a/m/e ", "adiro", "gi group", "persona", "perzukunft", "people", " hr ", "jobimpulse", " akko ", "job", "bindan", " adecco ", "aurea",  "xing", "experts", "people", "yakabuna", "worx", "accurat", "tempton", "zeitarbeit", "apero", "bstlux-werft u schifffahrt gmbh", "acordiz", "personal", "sicherheit", "it system", "vendeur", "fachkraft", "arbeiterschutz", "datenschutz", "developer", "betriebsorganisator",  "staplerfahrer", "gabelstaplerfahrerin", "arwa", "nexwave.eu"
+]
         for word in words:
             if word in block_text:
                 is_true=False;
@@ -104,7 +105,7 @@ def get_information(link):
             src = file.read()
         soup = BeautifulSoup(src, "lxml")
         time.sleep(1)
-        words_list = ["t-online.de", "Kfz Meister", "Schutz", "IT System", "Vendeur", "Fachkraft", "Arbeiterschutz", "Datenschutz", "Datenschutz", "dg-timework.de", "Befristete Überlassung von Arbeitskräften", "Sonstige Überlassung von Arbeitskräften", "Überlassung von Arbeitskräften", "Junior", " Mechaniker", "Elektriker", "Senior", " CAD",  "Tierarzthelfer", "Fullstack", "DevOps", "Bauingenieur", "Fahrbahnmechaniker", "Lokführer", "Cloud", "Fachinformatiker", "Verbundmanager", "Verkäufer", "Consultant", "Objektleiter", "Entwickler"]
+        words_list = ["t-online.de", "Kfz Meister", "Schutz", "IT System", "Vendeur", "Fachkraft", "Arbeiterschutz", "Datenschutz", "Datenschutz", "dg-timework.de", "Befristete Überlassung von Arbeitskräften", "Sonstige Überlassung von Arbeitskräften", "Überlassung von Arbeitskräften", "Junior", " Mechaniker", "Elektriker", "Senior", " CAD",  "Tierarzthelfer", "Fullstack", "DevOps", "Bauingenieur", "Fahrbahnmechaniker", "Lokführer", "Cloud", "Fachinformatiker", "Verbundmanager", "Verkäufer", "Consultant", "Objektleiter", "Entwickler", "Activities of employment placement agencies", "Temporary employment agency activities", "befristete Überlassung von Arbeitskräften", "sonstige Überlassung von arbeitskräften", "Überlassung von Arbeitskräften"]
         is_true=True
         for word in words_list:
             if word in soup.find("section", "ecl-col-m-9").text:
